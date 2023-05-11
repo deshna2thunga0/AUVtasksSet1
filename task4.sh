@@ -11,7 +11,7 @@ do
     ((x=x+1))
     ((j=j+1))
   done
-  echo -e "\n" #option -e validates escape sequences
+  echo -ne "\n" #option -e validates escape sequences
   ((i=i+1))
 done
 
